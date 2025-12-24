@@ -1,0 +1,208 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji", monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #cba6f7; /* Borde del tooltip en morado */
+}
+
+/* WORKSPACES */
+#workspaces {
+    background: #1e1e2e;
+    margin: 0 4px;
+    padding: 0 5px;
+    border-radius: 16px;
+    border: 1px solid #313244; /* Borde sutil */
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #7f849c;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #cba6f7; /* Mauve (Morado) activo */
+    border-radius: 16px;
+}
+
+#workspaces button:hover {
+    color: #f5c2e7; /* Pink al pasar el mouse */
+    background: #313244;
+    border-radius: 16px;
+}
+
+/* LAUNCHER (ROFI) */
+#custom-rofi {
+    background: #cba6f7; /* Mauve (Morado Intenso) */
+    color: #1e1e2e;
+    border-radius: 16px;
+    padding: 0 15px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+#custom-rofi:hover {
+    background: #f5c2e7; /* Cambia a rosa */
+    padding: 0 20px;
+}
+
+/* RELOJ */
+#clock {
+    background: #1e1e2e;
+    color: #b4befe; /* Lavender (Lavanda) */
+    border-radius: 16px;
+    padding: 0 15px;
+    margin: 0 5px;
+    border: 1px solid #313244;
+}
+
+/* HARDWARE INFO */
+#cpu, #memory, #temperature {
+    background: #1e1e2e;
+    color: #cba6f7; /* Todo el texto en Morado */
+    border-radius: 16px;
+    padding: 0 10px;
+    margin: 0 3px;
+    border: 1px solid #313244;
+}
+
+/* SYSTEM TRAY / STATUS */
+#backlight, #battery, #pulseaudio, #network {
+    background: #1e1e2e;
+    padding: 0 12px;
+    margin: 0 3px;
+    border-radius: 16px;
+    border: 1px solid #313244;
+}
+
+#pulseaudio {
+    color: #cba6f7; /* Mauve */
+}
+
+#backlight {
+    color: #f5c2e7; /* Pink */
+}
+
+#network {
+    color: #b4befe; /* Lavender */
+}
+
+#battery {
+    color: #cba6f7; /* Mauve */
+}
+
+#battery.charging {
+    color: #ffffff;
+    background-color: #cba6f7; /* Fondo morado al cargar */
+}
+
+#battery.warning:not(.charging) {
+    background-color: #fab387;
+    color: #1e1e2e;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f38ba8;
+    color: #1e1e2e;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* BOTÓN DE APAGADO */
+#custom-power {
+    background: #cba6f7; /* Mauve (Morado) */
+    color: #1e1e2e;
+    padding: 0 16px;
+    margin-left: 10px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+#custom-power:hover {
+    background: #f5c2e7; /* Rosa al hover */
+    padding: 0 20px;
+}
+
+#tray {
+    background-color: #1e1e2e;
+    margin: 0 10px;            
+    padding: 0 15px;           
+    border-radius: 16px;
+    border: 1px solid #313244;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #cba6f7;
+    border-radius: 5px;
+}
+
+#language {
+    background-color: #1e1e2e; 
+    color: #b4befe;            
+    padding: 2px 15px;         
+    border-radius: 20px;       
+    margin: 5px 5px;           
+    font-size: 18px;           
+    border: 2px solid #1e1e2e; 
+}
+
+/* DISCO (Tu petición especial) */
+#disk {
+    background-color: #b4befe; /* Lavender (Lavanda suave) */
+    color: #1e1e2e;            
+    padding: 0 15px;           
+    margin: 0 5px;             
+    border-radius: 15px;       
+    font-weight: bold;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+#disk:hover {
+    background-color: #cba6f7; /* Cambia a Morado intenso */
+    color: #1e1e2e;
+    padding: 0 20px;           
+}
+
+
+#custom-updates {
+    background-color: #fab387; /* Peach (Naranja) */
+    color: #1e1e2e;            /* Texto oscuro para contraste */
+    border-radius: 16px;       /* Bordes redondeados como el resto */
+    padding: 0 14px;
+    margin: 0 5px;
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+#custom-updates:hover {
+    background-color: #f5c2e7; /* Cambia a Rosa al pasar el mouse */
+    padding: 0 18px;           /* Pequeño efecto de expansión */
+}
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}

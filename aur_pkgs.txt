@@ -1,0 +1,11 @@
+catppuccin-cursors-mocha
+catppuccin-gtk-theme-mocha
+github-desktop-bin
+github-desktop-bin-debug
+neofetch
+papirus-folders-catppuccin-git
+sddm-sugar-candy-git
+visual-studio-code-bin
+wlogout-debug
+yay
+yay-debug

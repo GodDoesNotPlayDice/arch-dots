@@ -1,0 +1,10 @@
+[manager]
+prepend_keymap = [
+    # Los que te pasé antes para rutas y texto (opcionales)
+    { on = [ "g", "y" ], run = "shell 'echo -n \"$1\" | wl-copy' --confirm", desc = "Copiar RUTA al clipboard" },
+    { on = [ "g", "c" ], run = "shell 'cat \"$1\" | wl-copy' --confirm", desc = "Copiar TEXTO del archivo" },
+
+    # --- EL NUEVO ATAJO PARA IMÁGENES ---
+    # Detecta el tipo MIME (png/jpg) y lo manda a wl-copy con la bandera -t
+    { on = [ "g", "i" ], run = "shell 'mime=$(file --mime-type -b \"$1\"); cat \"$1\" | wl-copy -t \"$mime\"' --confirm", desc = "Copiar IMAGEN al clipboard" }
+]

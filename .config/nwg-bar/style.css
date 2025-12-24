@@ -1,0 +1,60 @@
+/* Fondo oscuro con desenfoque (estilo cristal ahumado) */
+window {
+    background-color: rgba(17, 17, 27, 0.85); /* Crust dark */
+    color: #cdd6f4;
+}
+
+#bar {
+    margin: 40px;
+}
+
+/* Estilo base de los botones: Minimalista, borde fino */
+button {
+    background-color: rgba(30, 30, 46, 0.4);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px; /* Bordes casi rectos, más agresivos/tech */
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 0 0px transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Efecto Hover: Resplandor Neón y cambio de color */
+button:hover, button:focus {
+    background-color: #1e1e2e;
+    border: 1px solid #cba6f7; /* Mauve (Morado claro) */
+    box-shadow: 0 0 15px rgba(203, 166, 247, 0.6); /* Resplandor */
+}
+
+/* Personalización por botón (Opcional: Colores específicos) */
+
+/* Lock (Azul) */
+button:nth-child(1):hover {
+    border-color: #89b4fa;
+    box-shadow: 0 0 20px rgba(137, 180, 250, 0.7);
+}
+
+/* Exit (Verde) */
+button:nth-child(2):hover {
+    border-color: #a6e3a1;
+    box-shadow: 0 0 20px rgba(166, 227, 161, 0.7);
+}
+
+/* Reboot (Naranja) */
+button:nth-child(3):hover {
+    border-color: #fab387;
+    box-shadow: 0 0 20px rgba(250, 179, 135, 0.7);
+}
+
+/* Power (Rojo Intenso - Estilo Akuma/Sith) */
+button:nth-child(4):hover {
+    border-color: #f38ba8;
+    box-shadow: 0 0 25px rgba(243, 139, 168, 0.8);
+}
+
+label {
+    font-size: 13px;
+    letter-spacing: 2px; /* Espaciado para que se vea más cinematográfico */
+    margin-top: 10px;
+}

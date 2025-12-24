@@ -1,0 +1,35 @@
+[general]
+# Velocidad de los cuadros (más alto = más fluido, pero usa más CPU)
+framerate = 60
+# Sensibilidad (ajusta si las barras suben mucho o muy poco)
+sensitivity = 100
+
+[input]
+# Cava suele detectar el audio solo (Pipewire/PulseAudio). 
+# Si no se mueve, cambia esto a 'pulse' o 'pipewire'.
+method = pulse
+source = auto
+
+[output]
+# Estilo de las barras (puedes probar 'blocks' también)
+style = stereo
+
+[color]
+# --- GRADIENTE CATPPUCCIN MOCHA ---
+gradient = 1
+gradient_count = 6
+
+# De Azul (abajo) a Morado/Rosa (arriba)
+gradient_color_1 = '#89b4fa'
+gradient_color_2 = '#b4befe'
+gradient_color_3 = '#cba6f7'
+gradient_color_4 = '#cba6f7'
+gradient_color_5 = '#f5c2e7'
+gradient_color_6 = '#f38ba8'
+
+[smoothing]
+# Para que se vea suave y no "saltarín"
+integral = 70
+monstercat = 1
+gravity = 100
+ignore = 0

@@ -1,0 +1,17 @@
+[
+  {
+    "label": "鎖 Lock",
+    "exec": "hyprlock",
+    "icon": "system-lock-screen"
+  },
+  {
+    "label": "再 Reboot",
+    "exec": "systemctl reboot",
+    "icon": "system-reboot"
+  },
+  {
+    "label": "滅 Power",
+    "exec": "systemctl poweroff",
+    "icon": "system-shutdown"
+  }
+]

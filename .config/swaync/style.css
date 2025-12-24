@@ -1,0 +1,69 @@
+/* Fondo general transparente para que Hyprland haga el blur */
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+}
+
+/* El contenedor de la notificación flotante */
+.notification-row {
+    outline: none;
+    margin-top: 5px;
+}
+
+.notification {
+    border: none;     
+    margin: 5px 10px;
+    padding: 0;
+}
+
+/* Encabezado (Título) */
+.notification-content {
+    background: transparent;
+    padding: 10px;
+}
+
+.summary {
+    color: #cba6f7; /* Título en Morado */
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Cuerpo del mensaje */
+.body {
+    color: #cdd6f4; /* Texto blanco suave */
+    font-size: 14px;
+}
+
+/* La hora */
+.time {
+    color: #b4befe; /* Lavanda */
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/* Botones de acción (si la noti tiene botones) */
+.notification-action {
+    color: #1e1e2e;
+    background: #cba6f7;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+/* CENTRO DE CONTROL (El panel lateral) */
+.control-center {
+    background: rgba(30, 30, 46, 0.90);
+    border-radius: 20px;
+    border: 2px solid #cba6f7;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Botón de "Borrar Todo" */
+.control-center-list-placeholder {
+    opacity: 0.5;
+}
+
+.floating-notifications {
+    background: transparent;
+}
