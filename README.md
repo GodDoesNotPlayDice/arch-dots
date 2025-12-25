@@ -2,6 +2,8 @@
     <h1>⛩️ Arch Hyprland Rice</h1>
     <p><b>Catppuccin Mocha • Waifu Aesthetic • Performance</b></p>
 </div>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a2289bd1-32c3-4344-9128-2c4d44f9d9e9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd5b6f29-f924-40f4-9280-48132ef5a106" />
 
 <br>
 
@@ -124,3 +126,6 @@ Super + M,Panic: Kill Music (MPV)
 Super + Shift + S,Screenshot (Grim + Slurp)
 Super + Shift + E,Power Menu (Wlogout)
 ```
+
+
+
