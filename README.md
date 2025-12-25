@@ -1,15 +1,6 @@
 <div align="center">
     <h1>⛩️ Arch Hyprland Rice</h1>
     <p><b>Catppuccin Mocha • Waifu Aesthetic • Performance</b></p>
-
-    <img src="assets/cover.png" alt="Main Screenshot" width="100%" style="border-radius: 12px; box-shadow: 0px 0px 20px rgba(203, 166, 247, 0.5);">
-
-    <br><br>
-
-    <img src="https://img.shields.io/badge/OS-Arch_Linux-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white">
-    <img src="https://img.shields.io/badge/WM-Hyprland-00a4a6?style=for-the-badge&logo=hyprland&logoColor=white">
-    <img src="https://img.shields.io/badge/Theme-Catppuccin_Mocha-F5C2E7?style=for-the-badge&logo=catppuccin&logoColor=1e1e2e">
-    <img src="https://img.shields.io/badge/Shell-Zsh-blue?style=for-the-badge&logo=zsh&logoColor=white">
 </div>
 
 <br>
@@ -133,8 +124,3 @@ Super + M,Panic: Kill Music (MPV)
 Super + Shift + S,Screenshot (Grim + Slurp)
 Super + Shift + E,Power Menu (Wlogout)
 ```
-
-<div align="center"> <p><i>"Code like an engineer, design like an artist."</i></p> <p>Made with ❤️ and too much coffee.</p> </div>
-
-
-
